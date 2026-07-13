@@ -3,11 +3,11 @@ variable "spring_cloud_app_dynamics_application_performance_monitorings" {
 Map of spring_cloud_app_dynamics_application_performance_monitorings, attributes below
 Required:
     - agent_account_access_key
-    - agent_account_access_key_key_vault_id (alternative to agent_account_access_key - read from Key Vault instead)
-    - agent_account_access_key_key_vault_secret_name (alternative to agent_account_access_key - read from Key Vault instead)
+    - agent_account_access_key_key_vault_id (optional, alternative to agent_account_access_key)
+    - agent_account_access_key_key_vault_secret_name (optional, alternative to agent_account_access_key)
     - agent_account_name
-    - agent_account_name_key_vault_id (alternative to agent_account_name - read from Key Vault instead)
-    - agent_account_name_key_vault_secret_name (alternative to agent_account_name - read from Key Vault instead)
+    - agent_account_name_key_vault_id (optional, alternative to agent_account_name)
+    - agent_account_name_key_vault_secret_name (optional, alternative to agent_account_name)
     - controller_host_name
     - name
     - spring_cloud_service_id
